@@ -78,7 +78,6 @@ class _LoginScreenState extends State<LoginScreen> {
               ),
               const SizedBox(height: 40),
 
-              // --- حقل إدخال الاسم (كما هو) ---
               TextField(
                 controller: _nameController,
                 decoration: const InputDecoration(
@@ -222,4 +221,5 @@ class ProfileScreen extends StatelessWidget {
     );
   }
 }
+
 
